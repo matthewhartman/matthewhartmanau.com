@@ -222,6 +222,7 @@ hr {
 .icon-github { background: url(img/github.svg) 50% 50% no-repeat; }
 .icon-linkedin { background: url(img/linkedin.svg) 50% 50% no-repeat; }
 .icon-spotify { background: url(img/spotify.svg) 50% 50% no-repeat; }
+.icon-amazon { background: url(img/amazon.svg) 50% 50% no-repeat; }
 .item-github {
   animation-duration: .8s;
   animation-fill-mode: both;
@@ -244,6 +245,12 @@ hr {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 1.7s;
+  animation-name: fadeInLeft;
+}
+.item-amazon {
+  animation-duration: .8s;
+  animation-fill-mode: both;
+  animation-delay: 1.8s;
   animation-name: fadeInLeft;
 }
 
